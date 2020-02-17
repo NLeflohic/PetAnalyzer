@@ -13,6 +13,7 @@
 		22362B4D23FA96FC003718FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22362B4B23FA96FC003718FE /* Main.storyboard */; };
 		22362B4F23FA96FD003718FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22362B4E23FA96FD003718FE /* Assets.xcassets */; };
 		22362B5223FA96FD003718FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22362B5023FA96FD003718FE /* LaunchScreen.storyboard */; };
+		22362B5A23FA9BFC003718FE /* PetImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 22362B5923FA9BFC003718FE /* PetImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		22362B4E23FA96FD003718FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22362B5123FA96FD003718FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22362B5323FA96FD003718FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22362B5923FA9BFC003718FE /* PetImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PetImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				22362B4E23FA96FD003718FE /* Assets.xcassets */,
 				22362B5023FA96FD003718FE /* LaunchScreen.storyboard */,
 				22362B5323FA96FD003718FE /* Info.plist */,
+				22362B5923FA9BFC003718FE /* PetImageClassifier.mlmodel */,
 			);
 			path = PetAnalyzer;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				22362B4A23FA96FC003718FE /* ViewController.swift in Sources */,
 				22362B4623FA96FC003718FE /* AppDelegate.swift in Sources */,
 				22362B4823FA96FC003718FE /* SceneDelegate.swift in Sources */,
+				22362B5A23FA9BFC003718FE /* PetImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
